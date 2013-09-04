@@ -7,6 +7,9 @@ rvm:
   - 2.0.0
   - ree
   - ruby-head
+gemfile:
+ - Gemfile.activerecord3
+ - Gemfile.activerecord4
 matrix:
   allow_failures:
     - rvm: ruby-head
